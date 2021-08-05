@@ -1,5 +1,36 @@
+#brownie1 {
+    height:200px;
+    width: 200px;
+    padding-top: 15px;
+   }
+   
+   #ice-cream2 {
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+   }
+   
+   #candy-apple3 {
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+   }
+   
+   #funnel-cake4 {
+    height:200px;    
+    width:200px;
+    padding-top: 15px;
+   }
+
+   hr {
+       width: 100%;
+       height: 5px;
+       background-color: black;
+   }
+
+
 #brownie {
- height: 120px;
+ height:120px;
  width: 120px;
  padding-top: 15px;
 }
