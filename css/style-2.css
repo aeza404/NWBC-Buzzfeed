@@ -70,6 +70,104 @@
  padding-top: 15px;
 }
 
+#halloween {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#christmas {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#easter {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#july {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+
+}
+
+#blue {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#green {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#red {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#yellow {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#ski {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;  
+}
+
+#garden {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#apple-picking {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#swimming {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#apple-pie {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#cherry-pie {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#pumpkin-pie {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#keylime-pie {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+
 .col-3 {
  align-items: center;
  border: solid;
@@ -91,6 +189,12 @@ a {
     position: relative;
     left: 50px;
 
+}
+
+ #burge {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
 }
 
 
