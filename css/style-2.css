@@ -1,0 +1,99 @@
+#brownie {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#ice-cream {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#candy-apple {
+ height: 120px;
+ width: 120px;
+ padding-top: 15px;
+}
+
+#funnel-cake {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#pizza {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#burger {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#mac-cheese {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#fruit-salad {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#hot-chocolate {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#iced-tea {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#apple-cider {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+#milkshake {
+ height: 120px;    
+ width: 120px;
+ padding-top: 15px;
+}
+
+.col-3 {
+ align-items: center;
+ border: solid;
+ border-color: black;
+ padding-bottom: 15px;
+ 
+}
+
+.heading {
+    text-align: center;
+}
+
+button {
+ position: relative;
+ left: 75px ;
+}
+
+a {
+    position: relative;
+    left: 50px;
+
+}
+
+
+
+
+
