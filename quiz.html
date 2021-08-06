@@ -221,59 +221,93 @@
   </div>
   <br>
 
-  <!-- Link to home page -->
-  <a href="index.html">Return to Home Page</a>
-  <br>
+  <div class="result">
+    <h2 id="result" style="margin-left: 200px;">Your result is...</h2>
+    <br>
+    <br>
+
+    <!-- Link to home page -->
+    <a href="index.html">Return to Home Page</a>
+    <br>
   </div>
   <br>
 
   <!-- javascipt -->
   <script type="text/javascript">
 
-    // Season variables 
-    var winterScore = 0
-    var springScore = 0
-    var summerScore = 0
-    var fallScore = 0
+ // Season variables 
+ var questionCount = 0;
+ var winterScore = 0;
+ var springScore = 0;
+ var summerScore = 0;
+ var fallScore = 0;
+ var Score = 0
 
-    // Functions collect season scores 
-    function winterAdd() {
-      winterScore++
-      console.log("Winter: " + winterScore)
-    }
+ // Functions collect season scores 
+ function winterAdd() {
+   winterScore++
+   console.log("Winter: " + winterScore);
+   questionCount += 1;
 
-    function springAdd() {
+   if (questionCount >= 3) {
+     updateResult();
+   }
+ }
+ 
+ function springAdd() {
       springScore++
       console.log("Spring: " + springScore)
-    }
-
+      questionCount += 1;
+ 
+      if (questionCount >= 3) {
+        updateResult();
+      }
+ }
+    
+ 
     function summerAdd() {
       summerScore++
       console.log("Summer: " + summerScore)
+      questionCount += 1;
+ 
+      if (questionCount >= 3) {
+        updateResult();
+      }
     }
-
+    
+ 
     function fallAdd() {
       fallScore++
       console.log("Fall: " + fallScore)
+      questionCount += 1;
+ 
+      if (questionCount >= 3) {
+        updateResult();
+      }
     }
-
-    const Scores = ["winterScore", "springScore", "summerScore", "fallScore"];
-
-
-
-
-
-
-
-
+    
+    var result = document.getElementById("result");
+ 
+    function updateResult() {
+      if (Score >= 4) {
+        result.innerHtml = "You are Winter";
+      } else if (winterScore >= 4) {
+        result.innerHTML = "You are Winter";
+      } else if (summerScore >= 4) {
+        result.innerHTML = "You are Summer";
+      } else if (springScore >= 4) {
+        result.innerHTML = "You are Spring";
+      } else if (fallScore >= 4) {
+        result.innerHTML = "You are Fall";
+      } else {
+        result.innerHTML = " You are mix of different Seasons";
+      }
+    }
 
 
 
 
   </script>
-
-
-
 
 </body>
 
